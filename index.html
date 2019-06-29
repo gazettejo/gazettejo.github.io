@@ -23,21 +23,18 @@
 					<section id="one" class="wrapper style1">
 
 						<div class="image fit flush">
-							<img src="images/pic02.jpg" alt="" usemap="#gotoamazonmap"/>
+							<img src="images/pic02.jpg" alt=""/>
 						</div>
-
-						<map name="gotoamazonmap">
-							<area shape="rect" coords="750,380,890,430" alt="amazonlink" href="https://www.amazon.com/gazette-Jo-fameuses-ententes-French/dp/1719002371/ref=sr_1_2?keywords=gazette+de+jo&qid=1561827714&s=gateway&sr=8-2">
-						</map>
-
-						<header class="special">
+					
+						<header class="special">							
+							<button class="buybutton" onclick="location.href='https://www.amazon.com/gazette-Jo-fameuses-ententes-French/dp/1719002371/ref=sr_1_2?keywords=gazette+de+jo&qid=1561827714&s=gateway&sr=8-2'">Acheter + Aperçu</button>
+							<br><br>
 							<h2>La gazette de Jo</h2>
 							<h3>Un journal pas comme les autres</h3>
-									
+							
 							<div class="videoWrapper">
 							<iframe width="100%" height="349" src="https://www.youtube.com/embed/JRRqluKBMIY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 							</div>
-						
 						</header>
 						
 						<div class="content">
@@ -49,22 +46,11 @@
 					</section>
 
 				<!-- Two -->
-					<section id="two" class="wrapper style2">
-						<header>
-							<h2>Acheter</h2>
-							<h2 style="color:#FFFFFF"> Disponible sur <u><a href="https://www.amazon.com/gazette-Jo-fameuses-ententes-French/dp/1719002371/ref=sr_1_1?keywords=gazette+de+jo&qid=1558288534&s=gateway&sr=8-1-spell"><font color="#e68a00">Amazon</u></font><h2></a>
-							<br>
-							<p style="color:#FFFFFF">Contact: jo@gazettejo.com</p>
-							<p style="color:#FFFFFF">(si vous avez des questions ou suggestions)</p>
-						</header>
+ 					<section id="two" class="wrapper style2">
 						<div class="content">
-						
-							<br><br>
-							<center><h2 style="color:#FFFFFF">Hey, voici un <u><a href="assets/pdf/gazette_de_jo_apercu.pdf"><font color="#78D4E3">APERÇU DU LIVRE</u></font></a> pour toi!</h2></center>
-							<!-- <center><h2 style="color:#FFFFFF">Répondez à ce court <u><a href="https://gazettejo.typeform.com/to/E5eZHc"><font color="#e68a00">SONDAGE</u></font></a> pour obtenir la chance de recevoir une copie gratuite du livre. Cinq copies seront pigées à la date de publication.<h2></center> -->
-							
+							<center><h2 style="color:#FFFFFF">« C’est à la fois très différent et très semblable <br> à ce que vous avez l’habitude de lire tous les jours »<h2></center> 
 						</div>
-					</section>
+					</section> 
 
 				<!-- Three -->
 					<section id="three" class="wrapper">
@@ -81,8 +67,8 @@
 						<div class="spotlight alt">
 							<div class="image flush"><img src="images/pic07.jpg" alt="" /></div>
 							<div  class="inner">
-								<h3 style="color:#FFFFFF"><u>LA STRUCTURE DU LIVRE</u></h3>
-								<h3 style="color:#FFFFFF">«C’est à la fois très différent et très semblable à ce que vous avez l’habitude de lire tous les jours»</h3>
+								<h3 style="color:#FFFFFF"><u>LA STRUCTURE ET LES DESSINS</u></h3>
+								<h3 style="color:#FFFFFF">Ce sont ces principaux ingrédients qui rendent ce roman unique; vous gouterez à quelque chose que vous n'avez jamais vu!</h3>
 							</div>
 						</div>
 						<div class="spotlight">
@@ -102,24 +88,39 @@
 				<div class="container">
 					<ul class="icons">
 						<!--<li><a href="#" class="icon fa-twitter" style="color:#000000"><span class="label">Twitter</span></a></li>-->
+						<li><h1 class="icon fa-envelope" style="color:#505050" id="myBtn"></li>
 						<li><a href="#" class="icon fa-facebook" style="color:#505050"><span class="label">Facebook</span></a></li>
 						<li><a href="#" class="icon fa-instagram" style="color:#505050"><span class="label">Instagram</span></a></li>
 						<!--<li><a href="#" class="icon fa-envelope-o" style="color:#000000"><span class="label">Email</span></a></li>-->
 						<!-- english -->
 						<li><h3><a href="en.html" style="color:#505050"><u>Web site in english</u></a></h3></li>
+						<h4>
+							La Gazette de Jo. Copyright © 2019, JACQUES ZHANG. Tous droits réservés.
+						</h4>
 					</ul>
 				</div>
-				<h4>
-				La Gazette de Jo. Copyright © 2019, JACQUES ZHANG. Tous droits réservés.
-				</h4>
 			</footer>
 
+			<!-- The Modal -->
+			<div id="myModal" class="modal">
+
+			  <!-- Modal content -->
+			  <div class="modal-content">
+				 <div class="modal-header">
+					<span class="close">&times;</span>
+					<h2>Contact: jo@gazettejo.com (si vous avez des questions ou suggestions)</h2>
+				 </div>
+			  </div>
+
+			</div>
+			
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.poptrox.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/modalScript.js"></script>
 
 	</body>
 </html>
