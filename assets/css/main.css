@@ -3205,6 +3205,21 @@
 
 .buybutton:hover {background-color: #ffff99}
 
+.changelangbutton {
+  display: inline-block;
+  padding: 1px 50px;
+  font-size: 24px;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: #88DB6C;
+  border: none;
+  border-radius: 30px
+}
+
+.changelangbutton:hover {background-color: #BBF0A9}
+
 
 /* The Modal (background) */
 .modal {
