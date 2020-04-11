@@ -31,3 +31,10 @@ function changeImageEN(clicked_id) {
 	
 	document.getElementById(clicked_id).src = ("images/switch/").concat(portion_index == 3 ? "en" : "", portion_index, ".", img_index == MAX_NUM_IMG_PER_PORTION ? 1 : img_index + 1, ".jpg");
 }
+
+// prevent right-clicking on images
+$(document).ready(function(){
+	$('img').bind('contextmenu', function(e) {
+	    return false;
+	}); 
+});
